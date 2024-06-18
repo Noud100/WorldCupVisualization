@@ -56,9 +56,9 @@ df_historic_world_cup         = pd.read_csv('FIFA DataSet/Data/FIFA World Cup Hi
 df_penalty_shootouts = pd.read_csv('FIFA DataSet/Data/FIFA World Cup Penalty Shootouts/WorldCupShootouts.csv', delimiter=',')
 
 # Twitter data
-df_tweets_01 = pd.read_csv('FIFA DataSet/Data/FIFA World Cup 2022 Twitter Dataset/tweets1.csv', delimiter=';')
-df_tweets_02 = pd.read_csv('FIFA DataSet/Data/FIFA World Cup 2022 Twitter Dataset/tweets2.csv', delimiter=';')
-df_tweets = pd.concat([df_tweets_01, df_tweets_02])
+#df_tweets_01 = pd.read_csv('FIFA DataSet/Data/FIFA World Cup 2022 Twitter Dataset/tweets1.csv', delimiter=';')
+#df_tweets_02 = pd.read_csv('FIFA DataSet/Data/FIFA World Cup 2022 Twitter Dataset/tweets2.csv', delimiter=';')
+#df_tweets = pd.concat([df_tweets_01, df_tweets_02])
 
 # Prediction data
 df_prediction_groups  = pd.read_csv('FIFA DataSet/Data/FIFA World Cup 2022 Prediction/2022_world_cup_groups.csv', delimiter=',')
